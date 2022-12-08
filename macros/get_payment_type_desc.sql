@@ -1,4 +1,4 @@
-{% macro get_payment_type(payment_type) -%}
+{% macro get_payment_type_desc(payment_type) -%}
 
 
     case {{ payment_type }}
